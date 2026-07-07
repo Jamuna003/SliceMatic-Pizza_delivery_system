@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-serif: "Playfair Display", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom styles for POS tablet experience in Natural Tones theme */
+body {
+  background-color: #FAF9F6; /* soft earthy warm white */
+  color: #3D332A; /* deep charcoal warm brown */
+  font-family: var(--font-sans);
+}
+
+/* Styling for elegant custom scrollbars matching Natural Tones */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF9F6;
+}
+::-webkit-scrollbar-thumb {
+  background: #E8E4D9;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8C8375;
+}
+

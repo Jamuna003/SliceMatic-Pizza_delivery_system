@@ -1,0 +1,8 @@
+{
+  "name": "Remix: PizzaFlow",
+  "description": "Walk-in counter ordering tablet system for SliceMatic pizza shop.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
